@@ -50,7 +50,7 @@ function dangNhap(){
           return;
       }
       alert("Đăng nhập thành công");
-      window.location.href="home.html";
+      window.location.href="index.html";
    } catch (error) {
      document.getElementById("kq_login").innerHTML=error.message;
    }
