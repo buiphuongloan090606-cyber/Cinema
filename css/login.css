@@ -1,0 +1,187 @@
+:root{
+     --color_w : #fff;
+      --color_g:#9a9a9a;
+}
+body{
+    margin:0;
+    overflow:hidden;
+}
+.background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/cinema/image/anh.png) center center/cover no-repeat;
+    transition: transform 1.5s;
+    z-index: -1;
+}
+
+.background.zoom{
+    transform: scale(1.4);
+}
+
+
+#snow{
+    position:fixed;
+    inset:0;
+    pointer-events:none;
+    overflow:hidden;
+}
+
+.flake{
+    position:absolute;
+    top:-20px;
+    background:white;
+    border-radius:50%;
+    animation-name:fall;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite;
+}
+
+@keyframes fall{
+
+0%{
+    transform:translate(0,-20px);
+}
+
+25%{
+    transform:translate(-20px,25vh);
+}
+
+50%{
+    transform:translate(15px,50vh);
+}
+
+75%{
+    transform:translate(-15px,75vh);
+}
+
+100%{
+    transform:translate(10px,110vh);
+}
+
+}
+.header{
+     color: var(--color_w);
+     position: fixed;
+     width: 100%;
+     top:10px;
+}
+.header .row div:first-child{
+     display: flex;
+}
+.header img{
+     max-width: 20%;
+     aspect-ratio: 1/1;
+     margin-right: 15px;
+}
+
+.header button{
+     min-width: 20%;
+     padding:10px 20px 0;
+     border: none;
+     border: 2px inset white;
+     border-radius: 18px;
+    
+
+}
+.header button:hover{
+     background: linear-gradient(to left,#ebe5e5,#60748f);
+     color: var(--color_w);
+}
+.container{
+     width: 100vw;
+     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--color_w);
+}
+.dangNhap{
+     min-width: 25%;
+     text-align: center;
+     border: 2px inset white;
+     border-radius: 10px;
+     background: rgba(0,0,0,0.5);
+     padding: 20px 10px;
+
+     
+
+}
+#formLogin{
+    display: none;
+}
+#formLogin.show{
+     display: block;
+}
+
+.dangNhap button{
+     width: 90%;
+     background: #abbfca;
+     border: none;
+     border-radius: 7px;
+     padding: 5px 0;
+     border: 2px inset #f9f9f9;
+}
+.container .row >div>div{
+     display: flex;
+   
+}
+.container input{
+     width: 95%;
+     padding: 4px;
+     margin: 10px 0;
+     border-radius: 5px;
+      outline: none;
+     border-bottom: 2px solid #60748f;
+     border-right: 2px solid #60748f;
+     border-top: none;
+     border-left: none;
+     
+}
+.container i{
+  
+margin-left: -30px;
+margin-top: 20px;
+
+color: var(--color_g);
+
+}
+.dangNhap span{
+     color: var(--color_g);
+     font-size: clamp(8px,13px,15px);
+}
+.dangNhap >button{
+    margin-top: 16px;
+     margin-bottom: 10px;
+}
+.icon{
+     width: 100%;
+     display: flex;
+     
+     margin: 10px auto;
+     
+}
+.icon>div{
+    
+     aspect-ratio: 1/1;
+     margin: auto;
+     border: 1px solid white;
+     border-radius: 50%;
+     padding: 5px;
+     
+     
+    
+}
+.icon i{
+    font-size: clamp(15px,23px,30px);
+    margin: auto;
+    color: var(--color_w) ;
+}
+#kq_login{
+     color: red;
+     font-size: 10px;
+}
+
