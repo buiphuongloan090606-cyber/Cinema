@@ -6,7 +6,7 @@
     color: var(--color_w); 
 }
 body {
-    background-image: url(/cinema/image/home.png);
+    background-image: url(../image/home.png);
     background-size: cover; 
     background-repeat: no-repeat;
     
