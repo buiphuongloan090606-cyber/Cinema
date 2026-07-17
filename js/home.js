@@ -37,7 +37,16 @@ $(document).ready(function () {
                 slidesToShow: 5,
                 slidesToScroll: 1,
                 autoplay: true,
-                autoplaySpeed: 500
+                autoplaySpeed: 500,
+                 responsive: [
+                   {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll:1
+                } 
+            }
+                ]
             });
         });
          $(document).ready(function () {
