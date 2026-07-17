@@ -394,6 +394,7 @@ hr{
     display: block;
     object-fit: cover;
     border-radius: 10px;
+    
 }
 .section4 .row >div{ 
      padding: 0;
@@ -546,16 +547,24 @@ hr{
     .section1 .row{
         margin: 10px;
     }
-    .section1 .button{
-        width: 100%;
-       display: flex;
-       justify-content: center;
-    }
-    .section1 .button button{
-        width: 30%;
-        margin: 10px 20px;
-        
-    }
+.section2 {
+    overflow: hidden;
+    width: 100%;
+}
+
+.gt p,
+.gt2 p {
+    margin: 0;
+    text-align: center;
+    line-height: 50px;
+}
+
+.gt .slick-slide,
+.gt2 .slick-slide {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
     .hot{
         width: 100%;
         display: flex;
@@ -565,6 +574,11 @@ hr{
         min-width: 90%;
         justify-self: center;
     }
+    .slides .slick-slide {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
     .slider .card{
         height: 225px ;
         font-size: 9px;
@@ -596,6 +610,10 @@ hr{
     min-height: 60vh;
     font-size: 20px;
     margin-bottom: 2em;
+   
+}
+.thongke >div{
+     margin: 0 40px;
 }
 .section4 .row:last-child>.col-xl-12:first-child>div>div:nth-child(n+2){
     display: none;
@@ -630,5 +648,5 @@ hr{
  .section3 .container .col-xl-9{
    height: 30vh;
  }
- 
+
 }
