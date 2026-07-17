@@ -551,7 +551,7 @@ hr{
         width: 100%;
     }
     .section1 .button button{
-        min-width: 25%;;
+        min-width: 35%;;
     }
 .section2 {
     overflow: hidden;
@@ -622,11 +622,17 @@ hr{
      margin: 0 40px;
 }
 .slider2 .card{
-    height: 320px;
+    height: 170px;
+    font-size:  10px;
+}
+.slider2 .card-body{
+    padding: 5px;display: flex;
+    justify-content: center;
+
 }
 
 .slider2 .card img{
-    height: 250px;
+    height: 140px;
     object-fit: cover;
 }
 .section4 .row:last-child>.col-xl-12:first-child>div>div:nth-child(n+2){
@@ -635,34 +641,44 @@ hr{
 .section4 .row{
     padding: 0;
 }
-.section4 .row .col-xl-8{
-    padding: 0 12px;
-}
-.section4 #listMovie>.col-xl-3>.item{
-    height: 200px;
-}
-.section4 #listMovie>.col-xl-3>.item img{
-    height: 198px;
-}
- .section4 .col-xl-4{
-    padding: 0 10px;
- }
- .section4 .row .col-xl-12:nth-child(n+2){
-    width: 80%;
-    margin: auto;
- }
- .section4 .col-xl-4 {
-    height: 122vh;
- }
+
+
+
+ 
+ 
  .section4 .thua{
     display: flex;
     align-self: flex-start;
     margin-left: 10px;
+ } 
+ .section4 #listMovie .itemcha{
+    height: 150px;
+    font-size: 10px;
  }
- .section3 .container .col-xl-9{
-   height: 50vh;
-   margin-bottom: 4rem;
+ .section4 #listMovie .itemcha .item{
+    height: 120px;
  }
-
-
+ .section4 #listMovie .itemcha .item div{
+    padding: 2px;
+ }
+ .section4 #listMovie .itemcha .item img{
+    height: 120px;
+ }
+ .section4 .col-10{
+  margin: auto;
+ }
+ .section4 .col-10>.row{
+   display: flex;
+   justify-content: center;
+ }
+ .section4 .col-10 .col-6{
+    width: 40%;
+    margin:0 ;
+ }
+ .section4 .col-10 .col-6 .item2{
+    width: 90%;
+    margin: 0;
+    
+    
+ }
 }
