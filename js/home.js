@@ -8,13 +8,13 @@
         });
  $(document).ready(function () {
             $('.slider2').slick({
-                slidesToShow: 6,
+                slidesToShow: 5,
                 slidesToScroll: 2,
                 autoplay: true,
-                autoplaySpeed: 1500
+                autoplaySpeed: 1200
             });
         });
-         $(document).ready(function () {
+$(document).ready(function () {
             $('.gt').slick({
                 slidesToShow: 5,
                 slidesToScroll: 1,

@@ -9,7 +9,7 @@ body {
     background-image: url(../image/home.png);
     background-size: cover; 
     background-repeat: no-repeat;
-    
+ 
     
 }
 body::before {
@@ -226,11 +226,11 @@ hr{
     border: 1px inset white;
 }
 .section1 .col-xl-7{
-     animation: moveUp 0.8s ease forwards;
+     animation: moveUp 1s ease forwards;
 }
 @keyframes moveUp {
     from {
-        transform: translate(100px, 300px);
+        transform: translate(100px, 100px);
         opacity: 0;
     }
     to {
@@ -265,10 +265,7 @@ hr{
    justify-self: end;
 
 }
-.slider2{
-    max-width: 100%;
 
-}
 
 .slick-slide{
     padding: 0 5px;
@@ -290,7 +287,7 @@ hr{
     object-fit: cover;
 }
 .slider2 .card img{
-    height: 300px;   
+    height: 320px;   
     object-fit: cover;
 }
 .section2>div{
@@ -307,9 +304,7 @@ hr{
 
 }
 .gt p ,.gt2 p{margin-top: 16px;}
- /* .section3 .container{
-    background-color: rgba(0, 0, 0, 0.795);
- }   */
+
 .section3 img{
     width: 100%;
   
@@ -423,7 +418,7 @@ hr{
     scale: 1.05;
 }
 .section4 .row {
-  margin-top: 2rem;
+  margin-top: 15px;
   padding: 30px 30px 0px 30px;
 }
 
