@@ -65,6 +65,7 @@ background-size: cover;phóng ảnh để phủ kín phần tử. */
     
     text-align: start;
     background-color: rgb(32, 30, 30);
+    
     border-radius: 10px;
     border: 1px inset wheat;
 }
@@ -244,15 +245,19 @@ hr{
     margin-left: 27rem;
     margin-bottom: 10px;;
     margin-top: 2rem;
+    
 }
 .hot>div{
     background: rgb(225, 12, 12);
-    padding: 0 5px;
+    padding:  5px;
     border-radius: 6px;
     margin-right: 7px;
+    
+    
+
 }
 .hot i{
-    color: var(--orange)
+    color:orange;
 }
 .slider{
     max-width: 70%;
@@ -523,7 +528,10 @@ hr{
 #addmovie.show2{
     display: block;
 }
-
+.section4 .thua>div:first-child{
+    padding: 0;
+    margin-bottom: 10px;
+}
 
 
  
