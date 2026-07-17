@@ -3,7 +3,16 @@
                 slidesToShow: 5,
                 slidesToScroll: 2,
                 autoplay: true,
-                autoplaySpeed: 1500
+                autoplaySpeed: 1500,
+                responsive: [
+                   {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll:1
+                } 
+            }
+                ]
             });
         });
  $(document).ready(function () {
@@ -11,7 +20,16 @@
                 slidesToShow: 5,
                 slidesToScroll: 2,
                 autoplay: true,
-                autoplaySpeed: 1200
+                autoplaySpeed: 1200,
+                responsive: [
+                   {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll:1
+                } 
+            }
+                ]
             });
         });
 $(document).ready(function () {
