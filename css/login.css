@@ -190,4 +190,10 @@ color: var(--color_g);
      color: red;
      font-size: 10px;
 }
+@media (max-width: 575.98px) { 
+   .dangNhap {
+     width: 70%;
+     padding: 15px 30px;
+   }  
+}
 

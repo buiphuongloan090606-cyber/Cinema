@@ -547,6 +547,12 @@ hr{
     .section1 .row{
         margin: 10px;
     }
+    .section1 .button{
+        width: 100%;
+    }
+    .section1 .button button{
+        min-width: 25%;;
+    }
 .section2 {
     overflow: hidden;
     width: 100%;
@@ -607,13 +613,21 @@ hr{
 }
 .thongke{
     margin: auto;
-    min-height: 60vh;
+    min-height: 80vh;
     font-size: 20px;
     margin-bottom: 2em;
    
 }
 .thongke >div{
      margin: 0 40px;
+}
+.slider2 .card{
+    height: 320px;
+}
+
+.slider2 .card img{
+    height: 250px;
+    object-fit: cover;
 }
 .section4 .row:last-child>.col-xl-12:first-child>div>div:nth-child(n+2){
     display: none;
@@ -625,10 +639,10 @@ hr{
     padding: 0 12px;
 }
 .section4 #listMovie>.col-xl-3>.item{
-    height: 240px;
+    height: 200px;
 }
 .section4 #listMovie>.col-xl-3>.item img{
-    height: 240px;
+    height: 198px;
 }
  .section4 .col-xl-4{
     padding: 0 10px;
@@ -638,7 +652,7 @@ hr{
     margin: auto;
  }
  .section4 .col-xl-4 {
-    height: 74vh;
+    height: 122vh;
  }
  .section4 .thua{
     display: flex;
@@ -646,7 +660,9 @@ hr{
     margin-left: 10px;
  }
  .section3 .container .col-xl-9{
-   height: 30vh;
+   height: 50vh;
+   margin-bottom: 4rem;
  }
+
 
 }
